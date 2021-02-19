@@ -1,0 +1,58 @@
+
+//version1
+2-prendre une variable
+	1-prendre une valeur
+		s'il en reste continuer
+		sinon revenir en arrière (1)
+	vérifier la cohérence
+		si oui avancer: empiler ->(2)
+		sinon essayer une nouvelle valeur ((1)
+
+//version 2		
+e=0
+1- var=variables[e]
+	2-si(var a encore valeurs)
+		v=var.next()
+		sauvemodele()
+	sinon
+		var=depiler()
+		e--;
+		restauremodele()
+		goto 2
+	si cohérence(var,v) et pas la dernière variable
+		empiler(var)
+		e++
+		goto 1
+	sinon 
+		si var est la dernière
+			solution trouvée
+		restauremodele()
+		goto 2
+
+//version 3
+e=0
+tant que vrai
+	var=variables[e]
+	tant que vrai
+		tant que (var n'a plus de valeur)
+			si encore des var sur la pile
+				var=depiler()
+				e--;
+				restauremodele()
+			sinon
+				stop: on tout fait.
+				
+		v=var.next()
+		sauvemodele()
+
+		si cohérence(var,v) et pas la dernière variable
+			empiler(var)
+			e++
+			break;
+		sinon 
+			si var est la dernière
+				solution trouvée
+			restauremodele()
+		
+		
+		

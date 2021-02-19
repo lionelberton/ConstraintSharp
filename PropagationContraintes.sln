@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropagationContraintes", "PropagationContraintes\PropagationContraintes.csproj", "{873418DC-D647-4A79-9259-C29EBFAF33FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstraintProgramming", "ConstraintProgramming\ConstraintProgramming.csproj", "{B2B24223-DF7D-4FCF-9DCC-250BE0944E9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{873418DC-D647-4A79-9259-C29EBFAF33FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873418DC-D647-4A79-9259-C29EBFAF33FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873418DC-D647-4A79-9259-C29EBFAF33FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873418DC-D647-4A79-9259-C29EBFAF33FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B24223-DF7D-4FCF-9DCC-250BE0944E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B24223-DF7D-4FCF-9DCC-250BE0944E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B24223-DF7D-4FCF-9DCC-250BE0944E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B24223-DF7D-4FCF-9DCC-250BE0944E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
